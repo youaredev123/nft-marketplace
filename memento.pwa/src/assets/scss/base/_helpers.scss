@@ -1,0 +1,382 @@
+@import "variables";
+
+.button {
+  line-height: 65px;
+  background-color: $brand-color;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 0 45px;
+  color: #fff;
+  display: inline-block;
+  border-radius: 40px;
+
+  overflow: hidden;
+
+  background: linear-gradient(90deg, #00DAFF 0%, #52B5EE 100%);
+
+  @media screen and (max-width: 991px) {
+    font-size: 16px;
+    line-height: 40px;
+    padding: 0 25px;
+
+  }
+
+  &:hover {
+    background-color: lighten($brand-color, 5%);
+    color: #fff;
+  }
+
+  &.button-brand {
+    background-color: $brand-color;
+    box-shadow: 0 10px 13px -7px rgba(0, 0, 0, 0.2), 5px 5px 15px 5px rgba(0, 0, 0, 0.2);
+
+    &:hover {
+      background-color: lighten($brand-color, 5%);
+      color: #fff;
+    }
+  }
+
+  &.button-small {
+    line-height: 40px;
+    padding: 0 20px;
+    box-shadow: none;
+  }
+
+  &.button-dark {
+    background-color: #000;
+
+    &:hover {
+      background-color: lighten(#000, 10%);
+      color: #fff;
+    }
+  }
+
+  &.button-link {
+
+    background-color: transparent;
+    background-image: none;
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid $border-color;
+    color: $brand-color;
+
+    &:hover {
+      .arrow {
+        right: -20px;
+      }
+    }
+
+    .arrow {
+      flex-shrink: 0;
+      width: 25px;
+      height: 10px;
+      background-image: url('../../images/arrow-right.svg');
+      background-repeat: no-repeat;
+      background-position: center center;
+      position: relative;
+      right: -15px;
+      background-size: 45px auto;
+      transition: all ease 0.3s;
+    }
+  }
+}
+
+.db-field {
+  margin-bottom: 25px;
+
+  .caption {
+    font-size: 15px;
+    margin: 0 0 5px 0;
+  }
+}
+
+.input {
+  display: block;
+  width: 100%;
+  height: 50px;
+  border: solid 1px $border-color;
+  background-color: #fff;
+  outline: none;
+  padding: 0 10px;
+  font-size: 14px;
+  transition: all ease 0.3s;
+  border-radius: 5px;
+
+  &:focus {
+    border: 1px solid $brand-color;
+  }
+
+  &.is-large {
+    padding: 0 15px;
+    height: 40px;
+    font-size: 15px;
+  }
+}
+
+.select {
+  display: block;
+  width: 100%;
+  height: 32px;
+  border-radius: 3px;
+  border: solid 1px $border-color;
+  background-color: #fff;
+  outline: none;
+  padding: 0 0 0 10px;
+  font-size: 14px;
+  transition: all ease 0.3s;
+  font-weight: 300;
+}
+
+.textarea {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  border: solid 1px $border-color;
+  background-color: #fff;
+  outline: none;
+  padding: 10px 10px;
+  font-size: 14px;
+  transition: all ease 0.3s;
+  border-radius: 5px;
+
+  &:focus {
+    border: 1px solid $brand-color;
+  }
+
+  &.is-large {
+    padding: 10px 10px;
+    font-size: 15px;
+  }
+}
+
+.radio {
+  display: inline-block;
+  position: relative;
+  min-height: 35px;
+  margin: 0 20px 0 0;
+
+  label {
+    margin: 0;
+    padding: 0;
+    display: block;
+
+    input {
+      width: 1px;
+      height: 1px;
+      position: absolute;
+      z-index: -1;
+      visibility: hidden;
+      opacity: 0;
+    }
+
+    span {
+      display: block;
+      line-height: 30px;
+      padding: 0 0 0 30px;
+      font-size: 16px;
+      color: $text-color;
+      cursor: pointer;
+      transition: all ease 0.3s;
+      line-height: 26px;
+
+      &:before {
+        content: "";
+        display: block;
+        width: 26px;
+        height: 26px;
+        border: 2px solid #f1f1f1;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+
+      &:hover {
+        color: $brand-color;
+      }
+    }
+
+    input:checked ~ span {
+      &:after {
+        content: "";
+        display: block;
+        width: 7px;
+        height: 7px;
+        background-color: #333;
+        border-radius: 50%;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+      }
+    }
+  }
+}
+
+.checkbox {
+  display: inline-block;
+  position: relative;
+
+  label {
+    margin: 0;
+    padding: 0;
+    display: block;
+
+    input {
+      width: 1px;
+      height: 1px;
+      position: absolute;
+      z-index: -1;
+      visibility: hidden;
+      opacity: 0;
+    }
+
+    span {
+      display: block;
+      line-height: 30px;
+      padding: 0 0 0 20px;
+      font-size: 16px;
+      cursor: pointer;
+
+      &:before {
+        content: "";
+        display: block;
+        width: 16px;
+        height: 16px;
+        border: 1px solid $brand-color;
+        position: absolute;
+        top: 5px;
+        left: 0;
+      }
+    }
+
+    input:checked ~ span {
+      &:after {
+        content: "";
+        display: block;
+        width: 11px;
+        height: 10px;
+        top: 8px;
+        position: absolute;
+        left: 2px;
+        background-color: $brand-color;
+      }
+    }
+  }
+}
+
+// color
+.color-brand {
+  color: $brand-color;
+}
+
+.color-second {
+  color: $brand-second;
+}
+
+.color-third {
+  color: $brand-third;
+}
+
+.color-red {
+  color: $red;
+}
+
+.color-green {
+  color: $green;
+}
+
+.color-blue {
+  color: $blue;
+}
+
+.color-yellow {
+  color: $yellow;
+}
+
+.color-orange {
+  color: $orange;
+}
+
+.color-pink {
+  color: $red;
+}
+
+.color-pink {
+  color: $red;
+}
+
+.color-black {
+  color: $black;
+}
+
+.color-white {
+  color: $white;
+}
+
+//text color
+.text-base {
+  color: $text-color;
+}
+
+.text-second {
+  color: $text-second;
+}
+
+.text-third {
+  color: $text-third;
+}
+
+.text-error {
+  @extend .color-red;
+}
+
+.text-success {
+  @extend .color-green;
+}
+
+//text color
+.bg-brand {
+  color: $brand-color;
+}
+
+.bg-second {
+  color: $brand-second;
+}
+
+.bg-third {
+  color: $brand-third;
+}
+
+// error success color
+.text-error {
+  @extend .color-red;
+}
+
+.text-success {
+  @extend .color-green;
+}
+
+/***/
+.clearfix {
+  clear: both;
+}
+
+.row-fix {
+  margin-left: -10px;
+  margin-right: -10px;
+
+  .col-fix {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+/***/
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-underline {
+  text-decoration: underline;
+}

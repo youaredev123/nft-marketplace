@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="12px" viewBox="0 0 27 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>new</title>
+    <defs>
+        <linearGradient x1="4.6%" y1="-1.11022302e-14%" x2="94.1%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#00DBFF" offset="0%"></stop>
+            <stop stop-color="#10A5F5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="new" fill-rule="nonzero">
+            <g id="Group" transform="translate(0.479000, 0.000000)" fill="url(#linearGradient-1)">
+                <g transform="translate(0.520000, 0.000000)" id="Rectangle">
+                    <rect x="0" y="0" width="25" height="12" rx="3"></rect>
+                </g>
+            </g>
+            <g id="Group" transform="translate(5.200000, 2.500000)" fill="#FFFFFF" font-family="Helvetica" font-size="7" font-weight="normal">
+                <text id="New!">
+                    <tspan x="0" y="6">New!</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

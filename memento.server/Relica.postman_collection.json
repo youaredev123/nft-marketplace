@@ -1,0 +1,728 @@
+{
+	"info": {
+		"_postman_id": "a86d75c4-794b-4091-9d9b-c20cbfd3b2a6",
+		"name": "Relica",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create Relica Wallet",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{relica_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json; charset=utf8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\n    \"email\" : \"test123@gmail.com\",\n    \"mnemonic\" : \"ignore lunch cotton use arrange drill virus shed nominee job frozen host\",\n    \"currentJigChildAddress\" : \"mwEcGNdUdc2PnLsULH8RJu1TYYpnE2qBHu\",\n    \"currentBsvChildAddress\": \"mrV4fSkpMDWgbeaf5ZujgJdcMrTCS9vP6q\",\n    \"password\" : \"MTIzNDU2\",\n    \"handle\" : \"12345678\"\n}"
+				},
+				"url": {
+					"raw": "{{relica_url}}/api/wallet/relica",
+					"host": [
+						"{{relica_url}}"
+					],
+					"path": [
+						"api",
+						"wallet",
+						"relica"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Recovery Relica Wallet",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{relica_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"password\" : \"123456\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{relica_url}}/api/wallet/relica/recover",
+					"host": [
+						"{{relica_url}}"
+					],
+					"path": [
+						"api",
+						"wallet",
+						"relica",
+						"recover"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Wallet Login",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{relica_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json; charset=utf8",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{relica_url}}/api/wallet/relica/login?password=MTIzNDU2",
+					"host": [
+						"{{relica_url}}"
+					],
+					"path": [
+						"api",
+						"wallet",
+						"relica",
+						"login"
+					],
+					"query": [
+						{
+							"key": "password",
+							"value": "MTIzNDU2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Remove Relica Wallet (Testing only)",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{relica_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{relica_url}}/api/wallet/relica/remove",
+					"host": [
+						"{{relica_url}}"
+					],
+					"path": [
+						"api",
+						"wallet",
+						"relica",
+						"remove"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Validate Wallet Info",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{relica_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{relica_url}}/api/wallet/relica/validate",
+					"host": [
+						"{{relica_url}}"
+					],
+					"path": [
+						"api",
+						"wallet",
+						"relica",
+						"validate"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Mnemnonic From Encrypted Password",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{relica_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{relica_url}}/api/wallet/relica/mnemonic?password=NnVrelpzMXZkWlVJRFBuTmxhYncvVGs2VlZyK3NDMnRobVJUeHZ1bFdQcz0",
+					"host": [
+						"{{relica_url}}"
+					],
+					"path": [
+						"api",
+						"wallet",
+						"relica",
+						"mnemonic"
+					],
+					"query": [
+						{
+							"key": "password",
+							"value": "NnVrelpzMXZkWlVJRFBuTmxhYncvVGs2VlZyK3NDMnRobVJUeHZ1bFdQcz0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Saved Wallet Info",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{relica_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{relica_url}}/api/wallet/relica?password=6ukzZs1vdZUIDPnNlabw%2FTk6VVr%2BsC2thmRTxvulWPs%3D",
+					"host": [
+						"{{relica_url}}"
+					],
+					"path": [
+						"api",
+						"wallet",
+						"relica"
+					],
+					"query": [
+						{
+							"key": "password",
+							"value": "6ukzZs1vdZUIDPnNlabw%2FTk6VVr%2BsC2thmRTxvulWPs%3D"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Check Email",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{relica_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{relica_url}}/api/wallet/relica/email-exists?email=phuc.tranhoang2012@gmail.com",
+					"host": [
+						"{{relica_url}}"
+					],
+					"path": [
+						"api",
+						"wallet",
+						"relica",
+						"email-exists"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "phuc.tranhoang2012@gmail.com"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Prepare NFT",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{relica_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{relica_url}}/api/prepare-nft?password=6ukzZs1vdZUIDPnNlabw%2FTk6VVr%2BsC2thmRTxvulWPs%3D&class=297e2c87ccab7a457b3af699f242bad181b344e8e80cab986fffbeaf09d9ce47_o2",
+					"host": [
+						"{{relica_url}}"
+					],
+					"path": [
+						"api",
+						"prepare-nft"
+					],
+					"query": [
+						{
+							"key": "password",
+							"value": "6ukzZs1vdZUIDPnNlabw%2FTk6VVr%2BsC2thmRTxvulWPs%3D"
+						},
+						{
+							"key": "class",
+							"value": "297e2c87ccab7a457b3af699f242bad181b344e8e80cab986fffbeaf09d9ce47_o2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update NFT",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{relica_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nftId\" : \"0e059061-24c1-4394-b444-d746c9d5640a\",\n    \"userId\" : \"a34ec97e-2c4e-4e63-896b-5104ea2e302b\",\n    \"currentLocation\" : \"e84c7097b5615db18f7e02a8faa9353b003dab339bc0332e1d9d4fd4b96811ca_o4\"\n}"
+				},
+				"url": {
+					"raw": "{{relica_url}}/api/update-nft",
+					"host": [
+						"{{relica_url}}"
+					],
+					"path": [
+						"api",
+						"update-nft"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Order",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{relica_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"nftId\": \"31f79679-bfd4-435b-b8de-c3ca8c23511b\",\n    \"satoshis\": 1000\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{relica_url}}/api/create-order?password=6ukzZs1vdZUIDPnNlabw%2FTk6VVr%2BsC2thmRTxvulWPs%3D",
+					"host": [
+						"{{relica_url}}"
+					],
+					"path": [
+						"api",
+						"create-order"
+					],
+					"query": [
+						{
+							"key": "password",
+							"value": "6ukzZs1vdZUIDPnNlabw%2FTk6VVr%2BsC2thmRTxvulWPs%3D"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get NFT",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{relica_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, */*",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Content-type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{relica_url}}/api/nft/5f5d171c-2d0a-430d-b9bd-e17823eb95dc?password=6ukzZs1vdZUIDPnNlabw%2FTk6VVr%2BsC2thmRTxvulWPs%3D",
+					"host": [
+						"{{relica_url}}"
+					],
+					"path": [
+						"api",
+						"nft",
+						"5f5d171c-2d0a-430d-b9bd-e17823eb95dc"
+					],
+					"query": [
+						{
+							"key": "password",
+							"value": "6ukzZs1vdZUIDPnNlabw%2FTk6VVr%2BsC2thmRTxvulWPs%3D"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Fill Order",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{relica_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"orderId\" : \"a770dd78-9bc9-4ccc-a6e3-49cd1fe75f8d\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{relica_url}}/api/fill-order?password=6ukzZs1vdZUIDPnNlabw%2FTk6VVr%2BsC2thmRTxvulWPs%3D",
+					"host": [
+						"{{relica_url}}"
+					],
+					"path": [
+						"api",
+						"fill-order"
+					],
+					"query": [
+						{
+							"key": "password",
+							"value": "6ukzZs1vdZUIDPnNlabw%2FTk6VVr%2BsC2thmRTxvulWPs%3D"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Orders",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{relica_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{relica_url}}/api/orders",
+					"host": [
+						"{{relica_url}}"
+					],
+					"path": [
+						"api",
+						"orders"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get My NFTs",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{relica_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "{{relica_url}}/api/coins?password=6ukzZs1vdZUIDPnNlabw%2FTk6VVr%2BsC2thmRTxvulWPs%3D",
+					"host": [
+						"{{relica_url}}"
+					],
+					"path": [
+						"api",
+						"coins"
+					],
+					"query": [
+						{
+							"key": "password",
+							"value": "6ukzZs1vdZUIDPnNlabw%2FTk6VVr%2BsC2thmRTxvulWPs%3D"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create NFT Collection",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{relica_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\" : \"Platinum\",\n    \"supply\" : 100\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{relica_url}}/api/create-nft-collection?password=6ukzZs1vdZUIDPnNlabw%2FTk6VVr%2BsC2thmRTxvulWPs%3D",
+					"host": [
+						"{{relica_url}}"
+					],
+					"path": [
+						"api",
+						"create-nft-collection"
+					],
+					"query": [
+						{
+							"key": "password",
+							"value": "6ukzZs1vdZUIDPnNlabw%2FTk6VVr%2BsC2thmRTxvulWPs%3D"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get NFT Collections",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "{{relica_token}}",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\" : \"Bronze\",\n    \"supply\" : 1000\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{relica_url}}/api/get-nft-collection?password=6ukzZs1vdZUIDPnNlabw%2FTk6VVr%2BsC2thmRTxvulWPs%3D",
+					"host": [
+						"{{relica_url}}"
+					],
+					"path": [
+						"api",
+						"get-nft-collection"
+					],
+					"query": [
+						{
+							"key": "password",
+							"value": "6ukzZs1vdZUIDPnNlabw%2FTk6VVr%2BsC2thmRTxvulWPs%3D"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

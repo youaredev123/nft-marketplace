@@ -1,0 +1,38 @@
+.relic-create-photo-modal {
+  margin: 0 !important;
+  height: 100% !important;
+
+  .relic-create-photo-wrapper {
+    margin: 0;
+
+    .relic-create-photo-image-wrapper {
+      float: none;
+    }
+
+    .relic-create-photo-money-wrapper {
+      width: 100%;
+
+      input {
+        max-width: 100% !important;
+      }
+    }
+  }
+
+  .relic-create-photo-button-wrapper {
+    position: relative;
+    top: unset !important;
+
+    .relic-create-photo-button {
+      max-width: 50%;
+      margin: 5rem auto 0 auto !important;
+    }
+  }
+
+  .relic-side-margin-container {
+    display: none;
+  }
+
+  hr {
+    display: none;
+  }
+}

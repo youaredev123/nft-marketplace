@@ -1,0 +1,44 @@
+{
+  "containerDefinitions": [
+    {
+      "essential": true,
+      "image": "<IMAGE1_NAME>",
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group" : "ecs-service",
+          "awslogs-region": "us-east-1",
+          "awslogs-stream-prefix": "memento"
+        }
+      },
+      "name": "memento",
+      "portMappings": [
+        {
+          "containerPort": 3006,
+          "hostPort": 3006,
+          "protocol": "tcp"
+        }
+      ],
+      "environment": [
+        {
+          "name": "NODE_ENV",
+          "value": "production"
+        },
+        {
+          "name": "SERVICE_REQUEST_KEY",
+          "value": "5464c206-704f-4537-aecb-aa7a2433c99e"
+        }
+        
+      ]
+    }
+  ],
+  "cpu": "256",
+  "executionRoleArn": "arn:aws:iam::517102049084:role/ecsTaskExecutionRole",
+  "taskRoleArn": "arn:aws:iam::517102049084:role/ecsTaskExecutionRole",
+  "family": "memento",
+  "memory": "512",
+  "networkMode": "awsvpc",
+  "requiresCompatibilities": [
+    "FARGATE"
+  ]
+}

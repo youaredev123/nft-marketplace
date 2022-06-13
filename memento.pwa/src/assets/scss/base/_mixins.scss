@@ -1,0 +1,19 @@
+@mixin gradient() {
+  background: linear-gradient(171.12deg, #FA8742 4.83%, #FF6464 95.47%);
+}
+
+@for $i from 1 through 200 {
+  .max#{$i* 10} {
+    max-width: 1px * $i*10;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+
+  }
+}
+
+@for $i from 1 through 100 {
+  .min#{$i* 10} {
+    min-width: 1px * $i*10 !important;
+  }
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.5" height="17.865" viewBox="0 0 19.5 17.865">
+    <defs>
+        <style>.fav{stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;}</style>
+    </defs>
+    <g transform="translate(0.75 0.75)">
+        <path class="fav" d="M17.091,2.974a4.64,4.64,0,0,0-6.787,0A5.012,5.012,0,0,0,9.5,4.145a4.977,4.977,0,0,0-.807-1.172,4.644,4.644,0,0,0-6.787,0,5.211,5.211,0,0,0,0,7.119L9.5,17.864l7.592-7.769A5.2,5.2,0,0,0,17.091,2.974Z" transform="translate(-0.5 -1.498)" />
+    </g>
+</svg>

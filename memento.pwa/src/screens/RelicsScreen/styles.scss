@@ -1,0 +1,257 @@
+.relics-screen {
+  @media (max-width: 480px) {
+    > .container-fluid {
+      height: 100%;
+
+      > .row:not(.row-header) {
+        height: 100%;
+      }
+    }
+  }
+
+  &.map-screen {
+    > .container-fluid {
+      @media (min-width: 481px) {
+        padding: 0;
+        overflow: hidden;
+
+        .row {
+          padding: 0;
+          margin: 0;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+
+  .map-container {
+    margin-top: 8px;
+    max-height: calc(100vh - 330px);
+    border: 1px solid var(--superLightGrey);
+    box-sizing: initial;
+    overflow: hidden;
+
+    @media (min-width: 481px) {
+      margin-top: 0;
+      max-height: calc(100vh - 60px) !important;
+    }
+
+    @media (max-width: 480px) {
+      margin-top: 0;
+      max-height: 100%;
+    }
+
+    .mapboxgl-map {
+      @media (min-width: 481px) {
+        height: calc(100vh - 60px) !important;
+        max-height: 100%;
+      }
+    }
+
+    .desktop-select-countries {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 25%;
+      height: 100%;
+      overflow: hidden;
+      z-index: 4;
+      background: var(--white);
+      font-size: 1.3rem;
+      transform: translateY(100%);
+      border: 1px solid var(--superLightGrey);
+
+      &.slide-in {
+        animation: slide-in 0.5s forwards;
+        -webkit-animation: slide-in 0.5s forwards;
+      }
+
+      &.slide-out {
+        animation: slide-out 0.5s forwards;
+        -webkit-animation: slide-out 0.5s forwards;
+      }
+
+      @keyframes slide-in {
+        100% {
+          transform: translateY(0%);
+        }
+      }
+
+      @-webkit-keyframes slide-in {
+        100% {
+          -webkit-transform: translateY(0%);
+        }
+      }
+
+      @keyframes slide-out {
+        0% {
+          -webkit-transform: translateY(0%);
+        }
+        100% {
+          -webkit-transform: translateY(100%);
+        }
+      }
+
+      @-webkit-keyframes slide-out {
+        0% {
+          -webkit-transform: translateY(0%);
+        }
+        100% {
+          -webkit-transform: translateY(100%);
+        }
+      }
+
+      @media (max-width: 480px) {
+        display: none;
+      }
+
+      &-scrollable {
+        overflow: auto;
+        height: calc(100% - 56px);
+      }
+
+      .unlock-message-container {
+        margin: 1rem;
+      }
+
+      .select-country-search-header {
+        @media (min-width: 481px) {
+          display: block !important;
+        }
+      }
+
+      .select-country-list {
+        overflow: hidden !important;
+        height: auto !important;
+
+        .country-list-item {
+          margin: 0 !important;
+          padding: 1.5rem;
+
+          img {
+            &.mr-5 {
+              margin-right: 1rem !important;
+            }
+          }
+
+          .country-name {
+            font-size: 1.6rem;
+          }
+        }
+      }
+    }
+
+    .desktop-buttons-wrapper {
+      display: flex;
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      padding-bottom: 1rem;
+      flex-direction: column;
+      z-index: 3;
+
+      @media (max-width: 480px) {
+        .discovered-icon {
+          display: none;
+        }
+      }
+
+      div {
+        width: auto;
+        text-align: center;
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h5 {
+          font-family: var(--font-headings);
+          font-weight: var(--font-weight-bold);
+          font-size: 1.3rem;
+          color: var(--grey);
+          margin-bottom: .75rem;
+        }
+
+        .icon {
+          margin: 0;
+          width: fit-content;
+          box-shadow: rgba(0, 0, 0, .1) 0 2px 6px;
+          border-radius: 1rem;
+          background-color: #fff;
+          padding: .5rem;
+
+          &:hover,
+          &.active {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+
+  .menu-icon {
+    @media (min-width: 481px) {
+      display: none;
+    }
+  }
+
+  .relic-discover-header {
+    padding: 23px 15px 2.1rem 15px;
+    position: relative;
+    color: var(--grey);
+
+    &-dollar {
+      display: none;
+    }
+
+    &-wrapper {
+      display: grid;
+      justify-content: space-between;
+      grid-template-columns: 1.1fr 1.5fr 1fr;
+    }
+
+    @media (min-width: 481px) {
+      &-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: fit-content;
+      }
+
+      display: flex;
+      margin: 2rem 0 1.7rem 0;
+      padding: 2.5rem 1.5rem;
+      border: 1px solid var(--superLightGrey) !important;
+      border-radius: 6px;
+      justify-content: flex-start;
+      width: fit-content;
+
+      &-dollar {
+        display: block;
+        width: 58px;
+        height: 58px;
+        background: var(--blue) 0 0 no-repeat padding-box;
+        border-radius: 58px;
+        color: var(--white);
+        font-size: 3.5rem;
+        text-align: center;
+        line-height: 59px;
+        margin-right: 2rem;
+      }
+
+      &-text {
+        color: #939393;
+        font-weight: var(--font-weight-medium);
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+      }
+
+      &-total {
+        font-weight: var(--font-weight-bold);
+        font-size: 3rem;
+        color: var(--blue);
+      }
+    }
+  }
+}

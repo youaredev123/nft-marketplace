@@ -1,0 +1,8 @@
+{
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "https://memento-273701.ts.r.appspot.com/api/$1"
+    }
+  ]
+}

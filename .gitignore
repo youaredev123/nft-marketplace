@@ -1,0 +1,8 @@
+node_modules/
+memento.pwa/build/
+memento.server/build/
+memento.server/pictures/
+.idea/
+.DS_Store
+.vscode/
+.nvmrc

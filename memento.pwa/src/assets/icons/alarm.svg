@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24.135 26">
+    <g transform="translate(0.068 1)">
+        <path stroke="currentColor" fill="none" stroke-width="2px" d="M4.592,10.5a3.253,3.253,0,0,0,6.144,0"
+              transform="translate(4.336 11.317)"/>
+        <line stroke="currentColor" fill="none" stroke-width="2px" x2="24" transform="translate(0 16.941)"/>
+        <path stroke="currentColor" fill="none" stroke-width="2px"
+              d="M24.5,17.954a4.693,4.693,0,0,1-4.363-4.363V8.136A7.636,7.636,0,0,0,12.5.5h0A7.636,7.636,0,0,0,4.863,8.136V13.59A4.693,4.693,0,0,1,.5,17.954"
+              transform="translate(-0.5 -0.5)"/>
+    </g>
+</svg>

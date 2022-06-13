@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="19.5" height="19.5" viewBox="0 0 19.5 19.5">
+    <defs>
+        <style>
+            .b{fill:none;stroke-linecap:square;stroke-miterlimit:10;}
+        </style>
+    </defs>
+    <g transform="translate(-1.25 -1.25)">
+        <circle class="a" fill="none" cx="0.409" cy="0.409" r="0.409" transform="translate(10.591 5.682)"/>
+        <circle class="b" stroke="currentColor" stroke-width="currentStrokeWidth" cx="9" cy="9" r="9" transform="translate(2 2)"/>
+        <circle class="b" stroke="currentColor" stroke-width="currentStrokeWidth" cx="0.409" cy="0.409" r="0.409" transform="translate(10.591 5.682)"/>
+        <line class="b" stroke="currentColor" stroke-width="currentStrokeWidth" y2="6.955" transform="translate(11 8.955)"/>
+    </g>
+</svg>

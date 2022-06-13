@@ -1,0 +1,2474 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "/Users/wildnothing/Development/relica/memento",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2021-04-19 22:33:58",
+            "filesum": 390,
+            "codesum": 46665,
+            "commentsum": 499,
+            "blanksum": 1845,
+            "statistics": {
+                ".js": {
+                    "code": 16299,
+                    "comment": 446,
+                    "blank": 1686
+                },
+                ".json": {
+                    "code": 27451,
+                    "comment": 0,
+                    "blank": 8
+                },
+                "": {
+                    "code": 85,
+                    "comment": 2,
+                    "blank": 11
+                },
+                ".ps1": {
+                    "code": 4,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".yml": {
+                    "code": 61,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".yaml": {
+                    "code": 18,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".md": {
+                    "code": 46,
+                    "comment": 12,
+                    "blank": 36
+                },
+                ".sh": {
+                    "code": 1,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".svg": {
+                    "code": 1194,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".css": {
+                    "code": 1067,
+                    "comment": 7,
+                    "blank": 0
+                },
+                ".development": {
+                    "code": 16,
+                    "comment": 4,
+                    "blank": 0
+                },
+                ".patch": {
+                    "code": 31,
+                    "comment": 0,
+                    "blank": 4
+                },
+                ".txt": {
+                    "code": 3,
+                    "comment": 1,
+                    "blank": 0
+                },
+                ".html": {
+                    "code": 364,
+                    "comment": 23,
+                    "blank": 100
+                },
+                ".xml": {
+                    "code": 9,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".production": {
+                    "code": 16,
+                    "comment": 4,
+                    "blank": 0
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": ".dockerignore"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": ".gitignore"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": ".prettierrc"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "appspec-dev.yaml"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "appspec.yaml"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "build.ps1"
+                },
+                {
+                    "blank": 0,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "buildspec-dev.yml"
+                },
+                {
+                    "blank": 0,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "buildspec.yml"
+                },
+                {
+                    "blank": 2,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "create-service-dev.json"
+                },
+                {
+                    "blank": 2,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "create-service.json"
+                },
+                {
+                    "blank": 4,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "Dockerfile"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 1,
+                    "filename": "memento.pwa/.env"
+                },
+                {
+                    "blank": 0,
+                    "code": 16,
+                    "comment": 4,
+                    "filename": "memento.pwa/.env.development"
+                },
+                {
+                    "blank": 0,
+                    "code": 16,
+                    "comment": 4,
+                    "filename": "memento.pwa/.env.production"
+                },
+                {
+                    "blank": 6,
+                    "code": 20,
+                    "comment": 1,
+                    "filename": "memento.pwa/.gitignore"
+                },
+                {
+                    "blank": 0,
+                    "code": 24647,
+                    "comment": 0,
+                    "filename": "memento.pwa/package-lock.json"
+                },
+                {
+                    "blank": 2,
+                    "code": 86,
+                    "comment": 0,
+                    "filename": "memento.pwa/package.json"
+                },
+                {
+                    "blank": 2,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "memento.pwa/patches/bn.js+4.11.9.patch"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "memento.pwa/patches/bsv+1.5.4.patch"
+                },
+                {
+                    "filename": "memento.pwa/public/android-chrome-192x192.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "memento.pwa/public/android-chrome-512x512.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "memento.pwa/public/apple-touch-icon.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "memento.pwa/public/browserconfig.xml"
+                },
+                {
+                    "filename": "memento.pwa/public/favicon 4.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "memento.pwa/public/favicon-16x16.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "memento.pwa/public/favicon-32x32.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "memento.pwa/public/favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 4,
+                    "code": 38,
+                    "comment": 8,
+                    "filename": "memento.pwa/public/firebase-messaging-dev-sw.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 38,
+                    "comment": 8,
+                    "filename": "memento.pwa/public/firebase-messaging-prod-sw.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 37,
+                    "comment": 9,
+                    "filename": "memento.pwa/public/firebase-messaging-sw.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 29,
+                    "comment": 23,
+                    "filename": "memento.pwa/public/index.html"
+                },
+                {
+                    "filename": "memento.pwa/public/invitation_2to1.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "memento.pwa/public/logo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 171,
+                    "comment": 0,
+                    "filename": "memento.pwa/public/logo.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "memento.pwa/public/manifest.json"
+                },
+                {
+                    "filename": "memento.pwa/public/mstile-150x150.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 52,
+                    "code": 180,
+                    "comment": 0,
+                    "filename": "memento.pwa/public/privacypolicy.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "memento.pwa/public/robots.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "memento.pwa/public/safari-pinned-tab.svg"
+                },
+                {
+                    "blank": 45,
+                    "code": 155,
+                    "comment": 0,
+                    "filename": "memento.pwa/public/terms.html"
+                },
+                {
+                    "blank": 31,
+                    "code": 37,
+                    "comment": 12,
+                    "filename": "memento.pwa/README.md"
+                },
+                {
+                    "blank": 48,
+                    "code": 286,
+                    "comment": 16,
+                    "filename": "memento.pwa/src/api/index.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 51,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/api/user.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 232,
+                    "comment": 2,
+                    "filename": "memento.pwa/src/App.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/1st.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/Add-photo.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/Add-photoBold.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/Blue tick.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/camera.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/comment.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/create-user-placeholder.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/Dark-mode-leaderboard-circle.svg"
+                },
+                {
+                    "filename": "memento.pwa/src/assets/icons/Discovered_Relics.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/envelope.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/favorite.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/Favourite star filled.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/Favourite star outline.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/HandCash - Icon.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/heart_lock.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/home-bold.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/home.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/i-switcher base.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/info.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/Instagram icon.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/leaderboard-selected.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/leaderboard.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/Leaderboardicon.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/left-arrow.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/left-arrow2.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/lock.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/logo-icon-shadow.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/logo-icon.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/logo-name.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 43,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/minus.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/Money Button - Icon.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/new-message.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/new.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/notification-added-to-favourites.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/notification-comments.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/Notification-dot.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/notification-following.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/notification-like.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/Notification-nodot.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/notification-tag.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/NotificationsBold.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/profile-bold.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/profile.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/Relica_copy.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/search-bold.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/search.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/Twitter_link.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/icons/World_icon_black_SVG.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/images/$1_button.svg"
+                },
+                {
+                    "filename": "memento.pwa/src/assets/images/adult-header.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "memento.pwa/src/assets/images/avatar-placeholder.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/images/Banner_Create_User.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/images/Coming_soon.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/images/Coming_soon_blue.svg"
+                },
+                {
+                    "filename": "memento.pwa/src/assets/images/createUserHeader.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "memento.pwa/src/assets/images/cutoff.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/images/Dark_mode.svg"
+                },
+                {
+                    "filename": "memento.pwa/src/assets/images/exclusive_blurred.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "memento.pwa/src/assets/images/exclusive_clear.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "memento.pwa/src/assets/images/exclusivity-header.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "memento.pwa/src/assets/images/Favicon.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/images/Flame_blue.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/images/Flame_icon.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/images/Flame_white.svg"
+                },
+                {
+                    "filename": "memento.pwa/src/assets/images/found_relic.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "memento.pwa/src/assets/images/found_relic_circled.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "memento.pwa/src/assets/images/gray.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/images/headerCreateUsername.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/images/Heart_blue.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/images/Heart_white.svg"
+                },
+                {
+                    "filename": "memento.pwa/src/assets/images/invitation_blue.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "memento.pwa/src/assets/images/invitation_white.jpg",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "memento.pwa/src/assets/images/invitation_white.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/images/Latest_blue.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/images/Latest_white.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/images/Lock_blue.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/images/Lock_icon.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/images/Lock_white.svg"
+                },
+                {
+                    "filename": "memento.pwa/src/assets/images/loginHeader.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/images/logo.svg"
+                },
+                {
+                    "filename": "memento.pwa/src/assets/images/main-section.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "memento.pwa/src/assets/images/marketing-logo-old.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "memento.pwa/src/assets/images/marketing-logo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "memento.pwa/src/assets/images/micrologo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "memento.pwa/src/assets/images/notificationlogo.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/images/Pop-up_private_photos.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/images/relica-word-white.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/images/relica-word.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/images/relica-word_white.svg"
+                },
+                {
+                    "filename": "memento.pwa/src/assets/images/relica_dark_mode.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "memento.pwa/src/assets/images/shreds.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "memento.pwa/src/assets/images/shreds2.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/images/Switch_off.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/images/Switch_on.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/images/Upload_photo_square.svg"
+                },
+                {
+                    "filename": "memento.pwa/src/assets/images/usp.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/assets/images/White background circle.svg"
+                },
+                {
+                    "blank": 3,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/AdultCard/index.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/AdultCard/styles.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/AuthLayout/index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/AuthLayout/styles.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/Avatar/index.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/Button/index.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 52,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/Button/styles.js"
+                },
+                {
+                    "blank": 12,
+                    "code": 151,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/Camera.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 42,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/CloseButtonCrop.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/CommentIcon.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 80,
+                    "comment": 1,
+                    "filename": "memento.pwa/src/components/CommentItem/index.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 72,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/CommentItem/styles.js"
+                },
+                {
+                    "blank": 18,
+                    "code": 124,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/CoverImage/index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/FavouriteIconEmpty.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/FavouriteIconFilled.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/FeedItem/Comment/index.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 114,
+                    "comment": 1,
+                    "filename": "memento.pwa/src/components/FeedItem/Comments/index.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/FeedItem/Comments/styles.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/FeedItem/Favourite/index.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 24,
+                    "comment": 8,
+                    "filename": "memento.pwa/src/components/FeedItem/ImageGrid/index.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 49,
+                    "comment": 1,
+                    "filename": "memento.pwa/src/components/FeedItem/ImageItem/index.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/FeedItem/ImageItem/styles.js"
+                },
+                {
+                    "blank": 21,
+                    "code": 272,
+                    "comment": 2,
+                    "filename": "memento.pwa/src/components/FeedItem/index.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/FeedItem/Info/index.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/FeedItem/Like/index.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/FeedItem/MoneyButton/index.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/FeedItem/PhotoSlides/index.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/FeedItem/RelicItem/index.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/FeedItem/RelicItem/styles.js"
+                },
+                {
+                    "blank": 34,
+                    "code": 342,
+                    "comment": 1,
+                    "filename": "memento.pwa/src/components/FeedItem/styles.js"
+                },
+                {
+                    "blank": 15,
+                    "code": 169,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/FollowableUserItem/index.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 67,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/FollowableUserItem/styles.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/Form/Input/index.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 45,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/Form/styles.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/Form/Switch/index.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/Form/TextArea/index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 68,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/FullImageButton.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 188,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/Header/index.js"
+                },
+                {
+                    "blank": 12,
+                    "code": 88,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/Header/styles.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 36,
+                    "comment": 1,
+                    "filename": "memento.pwa/src/components/ImageCropper/cropImage.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 115,
+                    "comment": 5,
+                    "filename": "memento.pwa/src/components/ImageCropper/index.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/ImageCropper/styles.js"
+                },
+                {
+                    "blank": 20,
+                    "code": 152,
+                    "comment": 13,
+                    "filename": "memento.pwa/src/components/ImageSet/index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/InfoIcon.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/LikeIcon.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/Loader/index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/Loader/styles.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/Logo.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 30,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/LogoIcon.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 59,
+                    "comment": 1,
+                    "filename": "memento.pwa/src/components/MainLayout/index.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 143,
+                    "comment": 1,
+                    "filename": "memento.pwa/src/components/MainLayout/Navigation/index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/MainLayout/Navigation/style.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 60,
+                    "comment": 1,
+                    "filename": "memento.pwa/src/components/MainLayout/styles.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 46,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/MarketingLayout/index.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/MarketingLayout/styles.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 57,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/ModalContainer/index.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 78,
+                    "comment": 1,
+                    "filename": "memento.pwa/src/components/ModalContainer/styles.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 12,
+                    "comment": 1,
+                    "filename": "memento.pwa/src/components/MoneyButton.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 49,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/MoneyButtonModal/index.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/NoResults/index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/NotFound.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 24,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/PopUpBottom/index.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/PopUpBottom/styles.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 42,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/PostModalContainer/index.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 64,
+                    "comment": 1,
+                    "filename": "memento.pwa/src/components/PostModalContainer/styles.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/ProfileIcon.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/ProgressBar/index.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 28,
+                    "comment": 5,
+                    "filename": "memento.pwa/src/components/ProgressBar/styles.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 39,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/RelicCitiesModal/index.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/ScrollContainer.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/ScrollToTop/index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 20,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/SearchResults.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 95,
+                    "comment": 1,
+                    "filename": "memento.pwa/src/components/SelectWalletModal/index.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/SettingsSwitch/index.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/SettingsSwitch/styles.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/SmallTileImage/index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/Tabs/index.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/Tabs/styles.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/Toasts/GenericMessage.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/Toasts/TransactionCompleteMessage.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/UserItem/index.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/components/UserItem/styles.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 73,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/dbInit.js"
+                },
+                {
+                    "blank": 12,
+                    "code": 145,
+                    "comment": 8,
+                    "filename": "memento.pwa/src/hooks/useAccount.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 43,
+                    "comment": 3,
+                    "filename": "memento.pwa/src/hooks/useAnimation.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 29,
+                    "comment": 4,
+                    "filename": "memento.pwa/src/hooks/useAuthentication.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/hooks/useBlobUrl.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 9,
+                    "comment": 4,
+                    "filename": "memento.pwa/src/hooks/useBodyScrollLock.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 60,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/hooks/useBuriedFeed.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 113,
+                    "comment": 5,
+                    "filename": "memento.pwa/src/hooks/useComments.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/hooks/useCurrentUser.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 28,
+                    "comment": 9,
+                    "filename": "memento.pwa/src/hooks/useCurrentWidth.js"
+                },
+                {
+                    "blank": 13,
+                    "code": 77,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/hooks/useDarkMode.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 16,
+                    "comment": 14,
+                    "filename": "memento.pwa/src/hooks/useDebounce.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/hooks/useDugFeed.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/hooks/useFavouritedBy.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 62,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/hooks/useFavouritesFeed.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 72,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/hooks/useFeed.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 91,
+                    "comment": 2,
+                    "filename": "memento.pwa/src/hooks/useFeedItem.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 55,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/hooks/useFollowAndUnfollow.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/hooks/useFollowers.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 42,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/hooks/useFollowing.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 44,
+                    "comment": 1,
+                    "filename": "memento.pwa/src/hooks/useHandCash.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 93,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/hooks/useImageCrop.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 67,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/hooks/useIncome.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/hooks/useLatestPosts.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 50,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/hooks/useLeaderboardFeed.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/hooks/useLikedBy.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 39,
+                    "comment": 9,
+                    "filename": "memento.pwa/src/hooks/useLocalStorage.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 9,
+                    "comment": 4,
+                    "filename": "memento.pwa/src/hooks/useLockBodyScroll.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/hooks/useLoggedInRedirect.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 72,
+                    "comment": 10,
+                    "filename": "memento.pwa/src/hooks/useMapbox.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 60,
+                    "comment": 1,
+                    "filename": "memento.pwa/src/hooks/useMoneyButton.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 47,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/hooks/useMostLikedFeed.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 75,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/hooks/useMyProfile.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 122,
+                    "comment": 1,
+                    "filename": "memento.pwa/src/hooks/useNotification.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 174,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/hooks/usePayments.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/hooks/usePost.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 149,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/hooks/useProfile.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/hooks/useScrollToTop.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 39,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/hooks/useToast.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 47,
+                    "comment": 4,
+                    "filename": "memento.pwa/src/hooks/useUserSettings.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 89,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/hooks/useUsersFeed.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 42,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/hooks/useUsersPosts.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/hooks/useUsersRelics.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/hooks/useWindowWidth.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/index.js"
+                },
+                {
+                    "blank": 15,
+                    "code": 32,
+                    "comment": 26,
+                    "filename": "memento.pwa/src/lib/base64.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/lib/checkUsername.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 62,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/lib/firebaseInit.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 16,
+                    "comment": 7,
+                    "filename": "memento.pwa/src/lib/imageHelpers.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/lib/renderImageLoaders.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/lib/renderNotificationLoaders.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/lib/renderWithHashTags.js"
+                },
+                {
+                    "blank": 15,
+                    "code": 124,
+                    "comment": 3,
+                    "filename": "memento.pwa/src/lib/requestor.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/lib/tokenizer.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/lib/utils.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/logo.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/ActivityLogScreen.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 218,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/ActivityScreen/ActivityItem/index.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 40,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/ActivityScreen/ActivityItem/styles.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 43,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/ActivityScreen/index.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/CreateUserScreen/Adult.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 69,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/CreateUserScreen/Exclusivity.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 17,
+                    "comment": 41,
+                    "filename": "memento.pwa/src/screens/CreateUserScreen/index.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/CreateUserScreen/Nudity.js"
+                },
+                {
+                    "blank": 35,
+                    "code": 216,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/CreateUserScreen/styles.js"
+                },
+                {
+                    "blank": 13,
+                    "code": 140,
+                    "comment": 6,
+                    "filename": "memento.pwa/src/screens/CreateUserScreen/UsernamePhoto.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 86,
+                    "comment": 2,
+                    "filename": "memento.pwa/src/screens/EditMyProfileScreen/index.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/EditMyProfileScreen/styles.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 47,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/ExclusivityScreen/Exclusivity.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 33,
+                    "comment": 1,
+                    "filename": "memento.pwa/src/screens/ExclusivityScreen/ExclusivityAdult.js"
+                },
+                {
+                    "blank": 14,
+                    "code": 89,
+                    "comment": 11,
+                    "filename": "memento.pwa/src/screens/ExclusivityScreen/index.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/ExclusivityScreen/Slider.js"
+                },
+                {
+                    "blank": 24,
+                    "code": 148,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/ExclusivityScreen/styles.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/ExclusivityScreen/Toggle.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/FavouritedByScreen.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 76,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/FavouritesScreen/index.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/FavouritesScreen/styles.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 74,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/FeedScreen/index.js"
+                },
+                {
+                    "blank": 13,
+                    "code": 110,
+                    "comment": 1,
+                    "filename": "memento.pwa/src/screens/FeedScreen/Leaderboard/index.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/FeedScreen/Leaderboard/styles.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/FeedScreen/Leaderboard/utils.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 33,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/FeedScreen/styles.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/FollowersScreen.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/FollowingScreen.js"
+                },
+                {
+                    "blank": 53,
+                    "code": 440,
+                    "comment": 14,
+                    "filename": "memento.pwa/src/screens/InboxScreen/index.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 73,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/IncomeScreen/IncomePostItem/index.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/IncomeScreen/IncomePostItem/styles.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 87,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/IncomeScreen/index.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 86,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/IncomeScreen/styles.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 286,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/LandingPage/index.js"
+                },
+                {
+                    "blank": 17,
+                    "code": 143,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/LandingPage/styles.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 22,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/LikedByScreen.js"
+                },
+                {
+                    "blank": 14,
+                    "code": 206,
+                    "comment": 7,
+                    "filename": "memento.pwa/src/screens/LoginProviderReturn/index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 34,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/LoginProviderReturn/styles.js"
+                },
+                {
+                    "blank": 11,
+                    "code": 95,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/MyProfileScreen/index.js"
+                },
+                {
+                    "blank": 16,
+                    "code": 212,
+                    "comment": 2,
+                    "filename": "memento.pwa/src/screens/MyProfileScreen/ProfileDetails/index.js"
+                },
+                {
+                    "blank": 15,
+                    "code": 139,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/MyProfileScreen/ProfileDetails/styles.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/MyProfileScreen/styles.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/NewPostScreen/FileUploader/index.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/NewPostScreen/FileUploader/styles.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 139,
+                    "comment": 1,
+                    "filename": "memento.pwa/src/screens/NewPostScreen/index.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/NewPostScreen/NewPostText/index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 10,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/NewPostScreen/NewPostText/styles.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 87,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/NewPostScreen/styles.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 39,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/NotificationsScreen/index.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 55,
+                    "comment": 1,
+                    "filename": "memento.pwa/src/screens/NotificationsScreen/styles.js"
+                },
+                {
+                    "blank": 16,
+                    "code": 163,
+                    "comment": 1,
+                    "filename": "memento.pwa/src/screens/OthersProfileScreen/index.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/OthersProfileScreen/PrivateProfile/index.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/OthersProfileScreen/PrivateProfile/styles.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 80,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/OthersProfileScreen/ProfileDetails/index.js"
+                },
+                {
+                    "blank": 12,
+                    "code": 73,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/OthersProfileScreen/ProfileDetails/styles.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/OthersProfileScreen/styles.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/PostScreen/index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/PostScreen/styles.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 99,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/RelicsScreen/buried.js"
+                },
+                {
+                    "blank": 16,
+                    "code": 251,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/RelicsScreen/create.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 54,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/RelicsScreen/dug.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 80,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/RelicsScreen/index.js"
+                },
+                {
+                    "blank": 28,
+                    "code": 442,
+                    "comment": 14,
+                    "filename": "memento.pwa/src/screens/RelicsScreen/map.js"
+                },
+                {
+                    "blank": 15,
+                    "code": 158,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/RelicsScreen/profile.js"
+                },
+                {
+                    "blank": 32,
+                    "code": 215,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/RelicsScreen/styles.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 80,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/RelicsScreen/view.js"
+                },
+                {
+                    "blank": 48,
+                    "code": 519,
+                    "comment": 11,
+                    "filename": "memento.pwa/src/screens/SearchScreen/index.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 17,
+                    "comment": 1,
+                    "filename": "memento.pwa/src/screens/SearchScreen/SearchBar/index.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 78,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/SearchScreen/SearchFilter/index.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 37,
+                    "comment": 1,
+                    "filename": "memento.pwa/src/screens/SearchScreen/SearchFilter/styles.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/SearchScreen/styles.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/SettingsScreen/index.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 23,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/SettingsScreen/PopUpSuccessChangePrivateAccount/index.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 52,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/SettingsScreen/PopUpSuccessChangePrivateAccount/styles.js"
+                },
+                {
+                    "blank": 16,
+                    "code": 239,
+                    "comment": 26,
+                    "filename": "memento.pwa/src/screens/SettingsScreen/Settings.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/SettingsScreen/SettingsItemComponent/index.js"
+                },
+                {
+                    "blank": 15,
+                    "code": 85,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/SettingsScreen/styles.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/SignupScreen.js"
+                },
+                {
+                    "blank": 21,
+                    "code": 260,
+                    "comment": 13,
+                    "filename": "memento.pwa/src/screens/SmartContractsTestScreen/index.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 116,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/SplashScreen/index.js"
+                },
+                {
+                    "blank": 12,
+                    "code": 93,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/SplashScreen/styles.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 39,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/UserListScreen/index.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 45,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/screens/VerificationScreen.js"
+                },
+                {
+                    "blank": 9,
+                    "code": 27,
+                    "comment": 2,
+                    "filename": "memento.pwa/src/services/BaseService.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 53,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/services/BlockChainService.js"
+                },
+                {
+                    "blank": 24,
+                    "code": 158,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/services/ContentService.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/services/RelicService.js"
+                },
+                {
+                    "blank": 30,
+                    "code": 200,
+                    "comment": 32,
+                    "filename": "memento.pwa/src/services/UserService.js"
+                },
+                {
+                    "blank": 15,
+                    "code": 95,
+                    "comment": 31,
+                    "filename": "memento.pwa/src/serviceWorker.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "memento.pwa/src/setupTests.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 7,
+                    "filename": "memento.pwa/src/styles/bootstrap-grid.min.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 1066,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/styles/bootstrap-spacing.min.css"
+                },
+                {
+                    "blank": 2,
+                    "code": 62,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/styles/globalStyles.js"
+                },
+                {
+                    "blank": 21,
+                    "code": 126,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/styles/index.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0,
+                    "filename": "memento.pwa/src/styles/layout.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "memento.server/.babelrc"
+                },
+                {
+                    "blank": 38,
+                    "code": 258,
+                    "comment": 12,
+                    "filename": "memento.server/backend.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 202,
+                    "comment": 4,
+                    "filename": "memento.server/content.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "memento.server/index.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 121,
+                    "comment": 4,
+                    "filename": "memento.server/main.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1722,
+                    "comment": 0,
+                    "filename": "memento.server/package-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "memento.server/package.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "now.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 776,
+                    "comment": 0,
+                    "filename": "package-lock.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "package.json"
+                },
+                {
+                    "blank": 5,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "README.md"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "run.ps1"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "run.sh"
+                },
+                {
+                    "blank": 1,
+                    "code": 32,
+                    "comment": 0,
+                    "filename": "taskdef-dev.json"
+                },
+                {
+                    "blank": 1,
+                    "code": 38,
+                    "comment": 0,
+                    "filename": "taskdef.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 15,
+                    "comment": 0,
+                    "filename": "TODO"
+                }
+            ]
+        }
+    ]
+}

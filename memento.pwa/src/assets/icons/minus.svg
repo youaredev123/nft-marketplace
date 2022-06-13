@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   >
+  <defs
+     id="defs15" />
+  <g
+     fill="#1082bf"
+     data-name="Path 238"
+     id="Path_238-8"
+     transform="translate(0.04230677,0.00408303)">
+    <path
+       id="path504"
+       stroke="none"
+       d="M 10,19.5 C 4.7616801,19.5 0.5,15.23832 0.5,10 0.5,4.7616801 4.7616801,0.5 10,0.5 c 5.23832,0 9.5,4.2616801 9.5,9.5 0,5.23832 -4.26168,9.5 -9.5,9.5 z" />
+    <path
+       id="path506"
+       fill="#1082bf"
+       stroke="none"
+       d="m 10,1 c -4.9626198,0 -9,4.0373802 -9,9 0,4.96262 4.0373802,9 9,9 4.96262,0 9,-4.03738 9,-9 C 19,5.0373802 14.96262,1 10,1 M 10,0 C 15.52285,0 20,4.47715 20,10 20,15.52285 15.52285,20 10,20 4.47715,20 0,15.52285 0,10 0,4.47715 4.47715,0 10,0 Z" />
+  </g>
+  <line
+     stroke-width="2"
+     stroke-linecap="round"
+     stroke="#ffffff"
+     fill="none"
+     y2="13.491033"
+     x2="13.514305"
+     data-name="Line 248"
+     id="Line_248"
+     x1="6.5143051"
+     y1="6.4910336" />
+  <line
+     stroke-width="2"
+     stroke-linecap="round"
+     stroke="#ffffff"
+     fill="none"
+     x2="13.502565"
+     y1="13.503051"
+     data-name="Line 249"
+     id="Line_249"
+     x1="6.5025649"
+     y2="6.5030537" />
+</svg>

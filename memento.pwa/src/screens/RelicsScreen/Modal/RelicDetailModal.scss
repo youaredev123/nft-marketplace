@@ -1,0 +1,120 @@
+.relic-detail-modal {
+  .relic-screen-full-height {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    border-radius: 6px;
+    position: relative;
+
+    .option-menu {
+      padding: 5px;
+      cursor: pointer;
+      position: absolute;
+      width: 35px;
+      right: 5px;
+      fill: darkgrey;
+    }
+
+    .remove-relic-btn {
+      margin-bottom: 30px;
+      width: 120px;
+      background: #E40016;
+      position: absolute;
+      right: 0px;
+      top: 35px;
+      padding: 10px;
+      font-size: 1.6rem;
+      border-radius: 6px 0 0 6px;
+    }
+
+    .relic-item {
+      display: flex;
+      flex: 1 30%;
+    }
+
+    .relic-item-content {
+      padding: 0;
+      margin: 0 15px;
+      align-items: flex-start;
+      display: flex;
+      flex: 1 30%;
+
+      &-wrapper {
+        width: 100%;
+      }
+
+      &__avatar {
+        margin: 0 !important;
+      }
+
+      &__profile-data {
+        flex-grow: 1;
+        padding: 0.5rem 0 0 1rem;
+        margin: 0;
+
+        p {
+          display: none;
+        }
+
+        .reward {
+          display: none;
+        }
+      }
+
+      &__text {
+        display: flex;
+        margin: 2rem 0;
+        line-height: 20px;
+      }
+
+      &__rewards {
+        display: flex;
+        margin-top: auto;
+        margin-bottom: 15px;
+        padding: 0.5rem 0.5rem;
+
+        &-dollar {
+          width: 54px;
+          height: 54px;
+          background: var(--green) 0 0 no-repeat padding-box;
+          border-radius: 58px;
+          color: var(--white);
+          font-size: 2.8rem;
+          text-align: center;
+          line-height: 56px;
+        }
+
+        &-info {
+          margin-left: 1.7rem;
+          line-height: 24px;
+          display: flex;
+          flex-direction: column;
+
+          &-text {
+            color: #939393;
+            margin-bottom: 3px;
+            font-weight: var(--font-weight-medium);
+            font-size: 1.5rem;
+            flex: 1 auto;
+          }
+
+          &-amount {
+            color: var(--green);
+            font-weight: var(--font-weight-bold);
+            font-size: 2.5rem;
+            flex: 1 auto;
+          }
+        }
+      }
+    }
+  }
+}
+
+.relic-modal-custom-back-btn {
+  margin: 0 0 1rem 0;
+  color: var(--white);
+  font-size: 1.8rem;
+  font-weight: var(--font-weight-medium);
+  cursor: pointer;
+}
+ 

@@ -1,0 +1,43 @@
+{
+  "containerDefinitions": [
+    {
+      "essential": true,
+      "image": "<IMAGE1_NAME>",
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group" : "ecs-service",
+          "awslogs-region": "us-east-1",
+          "awslogs-stream-prefix": "frontend-service"
+        }
+      },
+      "name": "frontend-service",
+      "portMappings": [
+        {
+          "containerPort": 3006,
+          "hostPort": 3006,
+          "protocol": "tcp"
+        }
+      ],
+      "environment": [
+        {
+          "name": "NODE_ENV",
+          "value": "development"
+        },
+        {
+          "name": "SERVICE_REQUEST_KEY",
+          "value": "d6ff5d5c-8a6b-41ff-9247-d6d1f997cdb8"
+        }
+      ]
+    }
+  ],
+  "cpu": "256",
+  "executionRoleArn": "arn:aws:iam::289997281614:role/frontendServiceEcsTaskRole",
+  "taskRoleArn": "arn:aws:iam::289997281614:role/frontendServiceEcsTaskRole",
+  "family": "frontend-service",
+  "memory": "512",
+  "networkMode": "awsvpc",
+  "requiresCompatibilities": [
+    "FARGATE"
+  ]
+}

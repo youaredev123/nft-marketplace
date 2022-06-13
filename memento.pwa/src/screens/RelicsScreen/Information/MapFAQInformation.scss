@@ -1,0 +1,57 @@
+.map-faq-information {
+  padding: 2rem;
+
+  @media (max-width: 480px) {
+    height: calc(100vh - 54px - 2rem);
+    overflow: auto;
+  }
+
+  h4 {
+    font-size: 1.8rem;
+    color: var(--blue);
+    font-weight: var(--font-weight-bold);
+    text-decoration: underline;
+  }
+
+  dl {
+    margin-top: 1.5rem;
+
+    dt {
+      font-size: 1.4rem;
+      color: var(--blue);
+      font-weight: var(--font-weight-medium);
+    }
+
+    dd {
+      font-size: 1.3rem;
+      margin-bottom: 1.5rem;
+      font-weight: var(--font-weight-light);
+      line-height: 1.6rem;
+
+      ul {
+        margin: .5rem 0;
+
+        li {
+          margin-left: 1rem;
+          font-size: 1.3rem;
+          font-weight: var(--font-weight-light);
+          line-height: 1.6rem;
+        }
+      }
+    }
+  }
+
+  p {
+    font-size: 1.3rem;
+    font-weight: var(--font-weight-light);
+    line-height: 1.6rem;
+    margin-bottom: 1.5rem;
+
+    &.team-relica {
+      font-family: 'Pacifico';
+      font-size: 1.5rem;
+      font-weight: var(--font-weight-bold);
+      color: var(--blue);
+    }
+  }
+}

@@ -1,0 +1,14 @@
+diff --git a/node_modules/bsv/lib/transaction/transaction.js b/node_modules/bsv/lib/transaction/transaction.js
+index 8ea762c..6fb0a5d 100644
+--- a/node_modules/bsv/lib/transaction/transaction.js
++++ b/node_modules/bsv/lib/transaction/transaction.js
+@@ -205,8 +205,7 @@ Transaction.prototype.getSerializationError = function (opts) {
+   }
+ 
+   return unspentError ||
+-    this._hasDustOutputs(opts) ||
+-    this._isMissingSignatures(opts)
++    this._hasDustOutputs(opts)
+ }
+ 
+ Transaction.prototype._hasFeeError = function (opts, unspent) {

@@ -1,0 +1,33 @@
+{
+  "taskDefinition": "frontend-service:1",
+  "cluster": "default",
+  "loadBalancers": [
+    {
+      "targetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:289997281614:targetgroup/frontend-service-tg-2/b6418bfdfddc27a7",
+      "containerName": "frontend-service",
+      "containerPort": 3006
+    }
+  ],
+  "desiredCount": 1,
+  "launchType": "FARGATE",
+  "schedulingStrategy": "REPLICA",
+  "deploymentController": {
+    "type": "CODE_DEPLOY"
+  },
+  "networkConfiguration": {
+    "awsvpcConfiguration": {
+      "subnets": [
+        "subnet-6c0a7021",
+        "subnet-c2f00ef3",
+        "subnet-85ab1aa4",
+        "subnet-5402a932",
+        "subnet-9e224e90",
+        "subnet-1dec5b42"
+      ],
+      "securityGroups": [
+        "sg-fc82c9c2"
+      ],
+      "assignPublicIp": "ENABLED"
+    }
+  }
+}

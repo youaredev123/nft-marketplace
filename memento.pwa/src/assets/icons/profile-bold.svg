@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <g id="Group_218" data-name="Group 218" transform="translate(-3506.999 -562.219)">
+    <g id="profile" transform="translate(3507.999 563.219)">
+      <circle id="Ellipse_32" data-name="Ellipse 32" cx="4.667" cy="4.667" r="4.667" transform="translate(5.333 4)" fill="none" stroke="currentColor" stroke-width="2"/>
+      <path id="Path_72" data-name="Path 72" d="M7.8,10.162a2.585,2.585,0,0,1-1.82,2.392L2.96,14a2.583,2.583,0,0,0-.368.191" transform="translate(0.197 2.721)" fill="none" stroke="currentColor" stroke-width="2"/>
+      <path id="Path_73" data-name="Path 73" d="M14.71,14.2a2.583,2.583,0,0,0-.368-.191l-3.02-1.451c-1.109-.584-1.82-1.244-1.82-2.392" transform="translate(2.501 2.721)" fill="none" stroke="currentColor" stroke-width="2"/>
+      <circle id="Ellipse_33" data-name="Ellipse 33" cx="10" cy="10" r="10" fill="none" stroke="currentColor" stroke-width="2"/>
+    </g>
+    <ellipse id="Ellipse_82" data-name="Ellipse 82" cx="4.5" cy="4" rx="4.5" ry="4" transform="translate(3514 568)" fill="currentColor"/>
+    <path id="Path_183" data-name="Path 183" d="M3517.678,576.828c-3.295,0-4.184,3.737-6.059,3.93s7.013,2.219,7.013,2.219l6.165-2.219S3520.973,576.828,3517.678,576.828Z" fill="currentColor"/>
+  </g>
+</svg>

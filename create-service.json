@@ -1,0 +1,33 @@
+{
+  "taskDefinition": "memento:289",
+  "cluster": "default",
+  "loadBalancers": [
+    {
+      "targetGroupArn": "arn:aws:elasticloadbalancing:us-east-1:517102049084:targetgroup/memento-tg-2/647e805c1547bac8",
+      "containerName": "memento",
+      "containerPort": 3006
+    }
+  ],
+  "desiredCount": 2,
+  "launchType": "FARGATE",
+  "schedulingStrategy": "REPLICA",
+  "deploymentController": {
+    "type": "CODE_DEPLOY"
+  },
+  "networkConfiguration": {
+    "awsvpcConfiguration": {
+      "subnets": [
+        "subnet-904a9bb1",
+        "subnet-9d73e9d0",
+        "subnet-b8afb186",
+        "subnet-be02d5e1",
+        "subnet-f1b63aff",
+        "subnet-f6955f90"
+      ],
+      "securityGroups": [
+        "sg-674d0343"
+      ],
+      "assignPublicIp": "ENABLED"
+    }
+  }
+}
